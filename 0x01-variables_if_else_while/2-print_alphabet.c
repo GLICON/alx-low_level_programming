@@ -10,9 +10,9 @@ int main(void)
 {
 	char w;
 
-	for (c = 'a'; c = 'z'; c++)
+	for (w = 'a'; w = 'z'; c++)
 	{
-	putchar(c)
+	putchar(c);
 	}
 	putchar ("\n");
 	return (0);
