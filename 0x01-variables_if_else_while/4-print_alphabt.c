@@ -13,7 +13,7 @@ int lowercase = 'a';
 	{
 		if (lowercase == 'e' || lowercase == 'q')
 		{
-			lowercase += 1
+			lowercase += 1;
 		}
 		else
 		{
