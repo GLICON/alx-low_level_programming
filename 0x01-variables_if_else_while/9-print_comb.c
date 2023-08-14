@@ -14,12 +14,12 @@ int i;
 		if (i != 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 		else
 		{
 		}
-		putchar(' ');
-	}
+}
 putchar('\n');
 return (0);
 }
