@@ -10,18 +10,19 @@ int main(void)
 	int i;
 	char c;
 	
-	for (i = 0; i < 16; i++)
+	for (i = 0; i < 11; i++)
 	{
 		if (i <10)
 		{
 			putchar('0' + (i % 10));
 		}
-		else 
+		else
 		{
-			for (c = 'A'; c <= 'F'; c++)
-			putchar(c);
+			for (c = 'a'; c <= 'f'; c++)
+			{
+				putchar(c);
+			}
 		}
-		
 	}
 	putchar('\n');
 	return (0);
