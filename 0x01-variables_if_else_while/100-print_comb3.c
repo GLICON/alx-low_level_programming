@@ -18,14 +18,14 @@ while (i <= '9')
 		{
 			putchar(i);
 			putchar(n);
-			if (i != '8' && n != '9')
+			if (i == '8' && n == '9')
 			{
-				putchar(',');
-				putchar(' ');
+				putchar('\n');
 			}
 			else
 			{
-				putchar('\n');
+				putchar(',');
+                                putchar(' ');
 			}
 		}
 		n++;
