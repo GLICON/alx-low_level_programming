@@ -16,8 +16,8 @@ while (i <= '9')
 	{
 		if (i != n || i < n)
 		{
-			putchar('i');
-			putchar('n');
+			putchar(i);
+			putchar(n);
 			if (i != 8 && n != 9)
 			{
 				putchar(',');
