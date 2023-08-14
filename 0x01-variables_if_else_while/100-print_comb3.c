@@ -10,27 +10,29 @@ int main(void)
 int i = '0';
 int n = '0';
 
-while(i <= '9')
+whil e(i <= '9')
 {
-	while(n <= '9')
+	while (n <= '9')
 	{
-		if(i != n || i < n)
+		if (i != n || i < n)
 		{
-                putchar('i');
-		putchar('n');
+			putchar('i');
+			putchar('n')
 		}
-		else 
+		else
 		{
 		}
 		if (n != 8 && n != 9)
 		{
-		putchar(',');
-		putchar(' ');
-                }
+			putchar(',');
+			putchar(' ')
+		}
 		else
-                {
+		{
 			putchar('\n');
 		}
 	}
+}
 return (0);
 }
+
