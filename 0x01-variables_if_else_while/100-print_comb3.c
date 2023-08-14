@@ -22,7 +22,7 @@ while(i <= '9')
 		else 
 		{
 		}
-		if (i != 8 && j != 9)
+		if (n != 8 && n != 9)
 		{
 		putchar(',');
 		putchar(' ');
@@ -31,5 +31,6 @@ while(i <= '9')
                 {
 			putchar('\n');
 		}
+	}
 return (0);
 }
