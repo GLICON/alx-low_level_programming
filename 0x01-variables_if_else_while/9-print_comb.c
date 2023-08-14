@@ -11,11 +11,14 @@ int i;
 	for (i = 0; i < 10; i++)
 	{
 		putchar('0' + (i % 10));
-		while (i != 9)
+		if(i != 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
+		else
+		{
+		}
 	}
 return (0);
 }
