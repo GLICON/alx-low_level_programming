@@ -10,7 +10,7 @@ int main(void)
 int i = '0';
 int n = '0';
 
-whil e(i <= '9')
+while (i <= '9')
 {
 	while (n <= '9')
 	{
