@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int i;
-	char c;
-	
-	for (i = 0; i < 11; i++)
+int i;
+char c;
+
+for (i = 0; i < 11; i++)
 	{
 		if (i < 10)
 		{
