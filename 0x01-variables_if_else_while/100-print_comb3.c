@@ -14,7 +14,7 @@ while (i <= '9')
 {
 	while (n <= '9')
 	{
-		if (i != n || i < n)
+		if (i != n && i < n)
 		{
 			putchar(i);
 			putchar(n);
