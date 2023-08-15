@@ -15,7 +15,7 @@ while (i <= '9')
 {
 	while (n <= '9')
 	{
-		while (k <= '9")
+		while (k <= '9')
 		{
 			if (i != n != k && i < n < k)
 			{
