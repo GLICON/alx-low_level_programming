@@ -17,9 +17,9 @@ int y;
 		{
 			if (x != 98)
 			{
-				printf("%d,", x);
+				printf("%d, ", x);
 			}
-			else
+			else if (x == 98)
 			{
 				printf("%d\n", x);
 			}
@@ -31,9 +31,9 @@ int y;
 		{
 			if (y != 98)
 			{
-				printf("%d,", y);
+				printf("%d, ", y);
 			}
-			else
+			else if (x ==98)
 			{
 				printf("%d\n", y);
 			}
