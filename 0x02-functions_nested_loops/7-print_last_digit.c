@@ -18,5 +18,6 @@ int n;
 	{
 		n = -n;
 	}
+	putchar(n);
 	return (n);
 }
