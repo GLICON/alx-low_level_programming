@@ -33,7 +33,7 @@ int y;
 			{
 				printf("%d, ", y);
 			}
-			else if (x ==98)
+			else if (y ==98)
 			{
 				printf("%d\n", y);
 			}
