@@ -14,9 +14,19 @@ int z;
 	if (n < 98)
 	{
 		for (x = n; x <= 98; x++)
-	{
-		printf("%d", x);
-		printf(',', x);
+		{
+			printf("%d", x);
+			printf(",", x):
+		}
 	}
-return (0);
+	else if (n > 98)
+	{
+		for (y = n; y >= 98; y--)
+		{
+			printf("%d", y);
+			printf(",", y);
+		}
+	}
+	_putchar('\n');
+	return (0);
 }
