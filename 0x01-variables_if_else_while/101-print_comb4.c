@@ -29,11 +29,11 @@ while (i <= '9')
 				else
 				{
 					putchar(',');
-					putchar(' ')
+					putchar(' ');
 				}
 			}
 			k++;
-§		}
+		}
 		k = '0';
 		n++;
 	}
