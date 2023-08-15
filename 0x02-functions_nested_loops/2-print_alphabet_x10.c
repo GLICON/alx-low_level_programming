@@ -13,7 +13,7 @@ char y;
 		_putchar('\n');
 			for (y = 'a'; y <= 'z'; y++)
 			{
-				_putchar(x);
+				_putchar(y);
 			}
 	}
 }
