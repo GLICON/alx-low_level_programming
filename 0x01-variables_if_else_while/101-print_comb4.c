@@ -19,26 +19,26 @@ while (i <= '9')
 		{
 			if (i != n && i != n && n != k && i < n && i < k && n < k)
 			{
-			       putchar(i);
-			       putchar(n);
-			       putchar(k);
-			       if (i == '7' && n == '8' && k =='9')
-			       {
-				       putchar('\n');
-			       }
-			       else
-			       {
-				       putchar(',');
-				       putchar(' ');
-			       }
-		       }
-	       }
-	       k++;
+				putchar(i);
+				putchar(n);
+				putchar(k);
+				if (i == '7' && n == '8' && k == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ')
+				}
+			}
+			k++;
+§		}
+		k = '0';
+		n++;
 	}
-	k = '0';
-	n++;
+	n = '0';
+	i++;
 }
-n = '0';
-i++;
 return (0);
 }
