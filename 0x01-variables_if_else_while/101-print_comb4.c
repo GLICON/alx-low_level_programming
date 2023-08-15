@@ -24,7 +24,6 @@ while (i <= '9')
 			       putchar(k);
 			       if (i == '7' && n == '8' && k =='9')
 			       {
-				       putchar('\n');
 			       }
 			       else
 			       {
@@ -41,5 +40,6 @@ while (i <= '9')
 n = '0';
 i++;
 }
+putchar('\n');
 return (0);
 }
