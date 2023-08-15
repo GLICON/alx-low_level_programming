@@ -21,7 +21,7 @@ for (i = 0; i <= 99; i++)
 			putchar(' ');
 			putchar((n / 10) + 48);
 			putchar((n % 10) + 48);
-			if (i == 98 || j == 99)
+			if (i == 98 || n == 99)
 			{
 				putchar('\n');
 			}
