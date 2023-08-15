@@ -39,6 +39,5 @@ int y;
 			}
 		}
 	}
-	return (n);
 }
 
