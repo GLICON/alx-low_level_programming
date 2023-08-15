@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Entry
+ * print_alphabet - Entry
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 char x;
 	for (x = 'a'; x <= 'z'; x++)
