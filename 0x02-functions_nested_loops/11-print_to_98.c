@@ -29,7 +29,7 @@ int y;
 	{
 		for (y = n; y >= 98; y--)
 		{
-			if (x != 98)
+			if (y != 98)
 			{
 				printf("%d,", y);
 			}
@@ -39,5 +39,6 @@ int y;
 			}
 		}
 	}
-	return (0);
+	return (n);
 }
+
