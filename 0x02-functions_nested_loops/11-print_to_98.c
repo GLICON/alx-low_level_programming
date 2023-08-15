@@ -25,7 +25,7 @@ int y;
 			}
 		}
 	}
-	else if (n > 98)
+	else if (n >= 98)
 	{
 		for (y = n; y >= 98; y--)
 		{
