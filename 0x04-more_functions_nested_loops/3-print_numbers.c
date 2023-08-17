@@ -13,5 +13,4 @@ int i;
 	{
 		_putchar(i);
 	}
-	return (0);
 }
