@@ -3,7 +3,6 @@ include "main.h"
 
 /**
  * print_numbers - To print 0-9
- * Return: 0 Always (Success)
  */
 
 void print_numbers(void)
