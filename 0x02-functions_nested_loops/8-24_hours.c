@@ -16,9 +16,9 @@ while (x < 24)
 	while (y < 60)
 	{
 		_putchar((x / 10) + '0');
-		_putchar((x %1 10) +'0');
+		_putchar((x % 10) +'0');
 		_putchar(',');
-		-putchar((y / 10) + '0');
+		_putchar((y / 10) + '0');
 		_putchar((y % 10) + '0');
 		_putchar('\n');
 		y++;
