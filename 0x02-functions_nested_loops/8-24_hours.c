@@ -4,23 +4,25 @@
  * jack_bauer - Entry
  * Return: 0 Always (Success)
  */
+
 void jack_bauer(void)
 {
-int x;
-int y;
-int z;
-int w;
-        for (w = 0; w <= 2; w++)
-        {
-		for (x = 0; x <= 3; x++)
+int x, y;
 
-                i = -i;
-        }
-        n = (i % 10);
-        if (n < 0)
-        {
-                n = -n;
-        }
-        _putchar(n + '0');
-        return (n);
+x = 0;
+while (x < 24)
+{ 
+	y = 0;
+	while (y < 60)
+	{
+		_putchar((x / 10) + '0');
+		_putchar((x %1 10) +'0');
+		_putchar(',');
+		-putchar((y / 10) + '0');
+		_putchar((y % 10) + '0');
+		_putchar('\n');
+		y++;
+	}
+	x++;
 }
+} 
