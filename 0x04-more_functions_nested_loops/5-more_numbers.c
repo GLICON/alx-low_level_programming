@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print num except 2 and 4
+ * more_numbers - print numbers from 0-14 ten times
  *
  * return: void
  */
