@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -11,7 +11,7 @@
 
 int main (argc, char* argv[])
 {
-printf("%s\n", argv[0]);
+printf("%s\n", *argv);
 
 return (0);
 }
