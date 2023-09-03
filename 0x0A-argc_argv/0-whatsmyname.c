@@ -9,7 +9,7 @@ i#include <stdio.h>
  * Return: Always 0 (Success)
  */
 
-int main (argc, char* argv[])
+int main (int argc, char* argv[])
 {
 printf("%s\n", *argv);
 
