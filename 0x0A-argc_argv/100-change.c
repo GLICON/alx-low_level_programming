@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 
@@ -10,6 +10,7 @@ i#include <stdio.h>
  *
  * Return: 0 (Success), 1 (Error)
  */
+
 int main(int argc, char *argv[])
 {
 	int num, j, result;
