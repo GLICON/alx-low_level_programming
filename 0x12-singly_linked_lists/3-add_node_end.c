@@ -31,6 +31,6 @@ if (*head == NULL)
 }
 while (temp->next)
 	temp = temp->next;
-	temp->next = _new;
+temp->next = _new;
 return (_new);
 }
