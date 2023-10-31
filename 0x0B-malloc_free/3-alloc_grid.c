@@ -18,7 +18,7 @@ if (width <= 0 || height <= 0)
 	return (NULL);
 }
 
-wh = malloc(sizeof(int) * height);
+wh = malloc(sizeof(int *) * height);
 
 if (wh == NULL)
 {
@@ -27,14 +27,15 @@ if (wh == NULL)
 for (i = 0; i < height; i++)
 {
 	wh[i] = malloc(sizeof(int) * width);
-}
-if (wh[i] == NULL)
-{
-	for (; i >= 0; i--)
+	if (wh[i] == NULL)
 	{
-		free(wh[i]);
+		for (; i >= 0; i--)
+		{
+			free(wh[i]);
+		}
+		free(wh);
+		return (NULL);
 	}
-	return (NULL);
 }
 
 for (i = 0; i < height; i++)
