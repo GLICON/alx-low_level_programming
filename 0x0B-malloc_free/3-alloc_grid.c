@@ -34,7 +34,6 @@ if (wh[i] == NULL)
 	{
 		free(wh[i]);
 	}
-	free(wh);
 	return (NULL);
 }
 
