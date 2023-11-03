@@ -2,6 +2,10 @@
 #define MAIN_H
 #include <stdlib.h>
 #include <stdio.h>
+
+void _puts(char *str);
+int _atoi(constant char *s);
+void print_int(unsigned long int n);
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
