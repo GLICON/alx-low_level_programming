@@ -28,5 +28,5 @@ for (i = 0; i < n; i++)
 		printf("%s", separator);
 }
 printf("\n");
-va_end(ap);
+va_end(num);
 }
