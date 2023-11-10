@@ -9,19 +9,19 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
-va_list list;
+va_list num;
 
-va_start(list, n);
+va_start(num, n);
+
+if (separator == NULL)
+	separator = "";
 
 for (i = 0; i < n; i++)
 {
-	if (!separator)
-		printf("%d", va_arg(list, int));
-	else if (separator && i == 0)
-		printf("%d", va_arg(list, int));
-	else
-		printf("%d", va_arg(list, int));
+	printf("%d", va_arg(num, int));
+	if (i < n - 1)
+		printf("%s", separator);
 }
-va_end(list);
+va_end(num);
 printf("\n");
 }
