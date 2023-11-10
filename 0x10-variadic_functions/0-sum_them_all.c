@@ -2,7 +2,7 @@
 
 /**
  * sum_them_all - returns the sum of all its parameters.
- * @n: arguments number passed inot the function
+ * @n: arguments number passed into the function
  *
  * Return: the sum
  */
