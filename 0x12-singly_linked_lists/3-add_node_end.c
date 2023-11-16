@@ -47,10 +47,11 @@ if (*head == NULL)
 	*head = new;
 	return (new);
 }
+
 tmp = *head;
 while (tmp->next)
 	tmp = tmp->next;
-	tmp->next = new;
-	return (new);
-	}
+tmp->next = new;
+return (new);
+}
 
