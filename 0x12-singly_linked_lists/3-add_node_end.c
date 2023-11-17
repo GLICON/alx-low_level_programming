@@ -1,13 +1,14 @@
 #include "lists.h"
 
 /**
-* _strlen - finds the length of a string
-* @str: string to get length
+* strlen - finds the length of a string
+* @str: string to get
+* length
 *
 * Return: length of string
 */
 
-unsigned int _strlen(char *str)
+unsigned int strlen(char *str)
 {
 unsigned int i;
 
