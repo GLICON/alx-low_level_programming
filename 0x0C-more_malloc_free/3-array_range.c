@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -27,5 +26,3 @@ for (i = 0; min <= max; i++)
 
 return (ptr);
 }
-
-
