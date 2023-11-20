@@ -19,6 +19,5 @@ i = (*head)->n;
 opp = (*head)->next;
 free(*head);
 *head = opp;
- 
 return (i);
 }
